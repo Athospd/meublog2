@@ -1,0 +1,15 @@
+---
+title: "Meu Primeiro Post"
+author: "Athos Damiani"
+date: "2022-11-01"
+categories: [news, hello]
+image: "athos2.jpg"
+---
+
+Meu novo post fala sobre Quarto e sobre Github Pages. Aprendemos que é possível criar blog com posts cotnendo codigo e texto a partir do R.
+
+```{r}
+hist(iris$Sepal.Length)
+```
+
+

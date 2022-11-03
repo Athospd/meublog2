@@ -1,0 +1,16 @@
+{
+  "hash": "e86a49c5c621d9808623ae295264eba0",
+  "result": {
+    "markdown": "---\ntitle: \"Meu Primeiro Post\"\nauthor: \"Athos Damiani\"\ndate: \"2022-11-01\"\ncategories: [news, hello]\nimage: \"athos2.jpg\"\n---\n\n\nMeu novo post fala sobre Quarto e sobre Github Pages. Aprendemos que é possível criar blog com posts cotnendo codigo e texto a partir do R.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nhist(iris$Sepal.Length)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
