@@ -24,7 +24,9 @@ jobs:
         with:
           use-public-rspm: true
 
-      - run: Rscript -e 'rmarkdown::render("README.Rmd")'
+      - run: |
+          Rscript -e 'install.packages("rmarkdown")'
+          Rscript -e 'rmarkdown::render("README.Rmd")'
 
 
 
