@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main, master]
   schedule:
-    - 01 01 * * *
+  - cron: "15 * * * *"
 
 name: aula-de-github-actions
 
