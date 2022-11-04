@@ -24,6 +24,8 @@ jobs:
         with:
           use-public-rspm: true
 
+      - uses: r-lib/actions/setup-pandoc@v2
+
       - run: |
           Rscript -e 'install.packages("rmarkdown")'
           Rscript -e 'rmarkdown::render("README.Rmd")'
