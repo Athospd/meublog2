@@ -6,8 +6,6 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  schedule:
-  - cron: "15 * * * *"
 
 name: aula-de-github-actions
 
@@ -29,6 +27,14 @@ jobs:
       - run: |
           Rscript -e 'install.packages("rmarkdown")'
           Rscript -e 'rmarkdown::render("README.Rmd")'
+
+      - name: dar um push no README.md
+        run: |
+          git config --local user.name "github"
+          git config --local user.email "github@users.noreply.github.com"
+          git add README.md
+          git commit -m "Re-build README.md"
+          git push origin
 
 
 
