@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+```{r}
+2+2
+```
+
+# Titulo
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| 2    | 4    | 5    |
+| 1    | 2    | 6    |
+| 4    | 4    | 7    |
+
+![](profile.jpg){width="226"}
+
+$$
+\sum_i^{10} x_i
+$$
