@@ -10,7 +10,7 @@ output:
 hist(rnorm(100))
 ```
 
-![](README_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](README_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
 
 
 ```r
@@ -18,6 +18,6 @@ timestamp()
 ```
 
 ```
-## ##------ Thu Nov  3 21:33:23 2022 ------##
+## ##------ Fri Nov  4 00:52:34 2022 ------##
 ```
 
